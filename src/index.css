@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+
+  font-family: "poppins";
+}
+
+.customTextGradient {
+  background: linear-gradient(90.97deg, #0076ce 26.63%, #9400d3 65.81%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.customBgColor {
+  background: linear-gradient(90.97deg, #0076ce, #9400d3);
+}
