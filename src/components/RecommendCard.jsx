@@ -6,7 +6,7 @@ function RecommendCard({ name, pricing, rating, reviews }) {
     <div className="bg-white shadow-md rounded-lg p-4">
       <div className="mb-2">
         <img
-          src="recommend-img.svg"
+          src="/recommend-img.svg"
           alt="Recommendation"
           className="w-full h-auto rounded-t-lg"
         />
